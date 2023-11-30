@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>kit-builder.io</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://i.imgur.com/DhZUTVs.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <script src="log-in.js" defer></script>
+</head>
+</html>
+
+<body>
+
+  <section id ="top">
+    <h1 class="outlined-text">kit-builder.io</h1>
+    <ul>
+      <li><a class="toplinks" href="index.html">Home</a></li>
+      <li><a class="toplinks"href="log-in.html">Log-In</a></li>
+      <li><a class="toplinks" href="kit-list.html">Kit List</a></li>
+      <li><a class="toplinks" href="profile.html">Profile</a></li>
+      <li><a class="toplinks" href="about.html">About</a></li>
+    </ul>
+  </section>
+  <hr>
+ 
+  <div class="registration-form">
+      <h3 class="log-message">Welcome to kit-builder.io!</h3>
+      <div class="form-icon">
+        <img src="https://i.imgur.com/jZtluUc.png" alt="kit-builder.io icon" class="icon">
+      </div>
+        <h2><b>LOGIN</b></h2>
+        <h3 class="centerH">Not a member? Create an account <a href="index.html">here.</a></h3>
+      <form method="POST" id="login-form">
+        <label class="required"></label>
+        <div class="form-group"> 
+            <input type="text" class="form-control item" name="usename" id="username" placeholder="Username" required>
+        </div>
+        <label class="required"></label>
+        <div class="form-group">
+            <input type="password" class="form-control item" name="password" id="password" placeholder="Password" required>
+        </div>
+        <div class="form-group">
+          <button type="button" class="log-button" id="login-button">
+              Log-In
+          </button>
+      </div>
+        <div id="error-message" class="error-message"></div>
+    </form>
+</div>
+</body>

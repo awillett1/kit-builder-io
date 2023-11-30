@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>kit-builder.io</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="icon" href="https://i.imgur.com/DhZUTVs.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="submit.js" defer></script>
+  <script src="kit.js" defer></script>
+  <script src="common.js" defer></script>
+</head>
+</html>
+
+<body>
+<section id ="top" class="container-fluid p-5 text-left bg-light">
+  <div class="row">
+    <h1 class="outlined-text">kit-builder.io</h1>
+  </div>
+  <div class="row">
+    <div class="col">
+      <ul>
+        <li><a class="toplinks" href="index.html">Home</a></li>
+        <li><a class="toplinks"href="log-in.html">Log-In</a></li>
+        <li><a class="toplinks" href="kit-list.html">Kit List</a></li>
+        <li><a class="toplinks" href="profile.html">Profile</a></li>
+        <li><a class="toplinks" href="about.html">About</a></li>
+      </ul>
+      </div>
+    </div>
+</section>
+
+<hr>
+<div id="welcome-message" class="welcome-message"></div>
+<div id="search-container">
+  <label for="filter-select-weapon" id="filter-select-weapon-label" label class="required">Please select a weapon.</label>
+        <select id="filter-select-weapon" required>
+          <optgroup label="Shooters" id="Shooters">
+          </optgroup>
+        </select>
+      
+        <h2>Headgear</h2>
+        <label for="headgear-select" class="required">Please select the headgear you want.</label>
+        <select id="headgear-select" required>
+          <optgroup label="Headgear" id="Headgear">
+          </optgroup>
+        </select>
+
+        <label for="headgear-primary-filter-select" class="required">Please select primary gear abilities.</label>
+        <select id="headgear-primary-filter-select" required>
+          <optgroup label="primary-one" id="headgear-primary-one">
+        </optgroup>
+        </select>
+
+        <br>
+
+        <h2>Shirt</h2>
+        <label for="shirt-select" class="required">Please select the shirt you want.</label>
+        <select id="shirt-select" required>
+          <optgroup label="Shirt" id="Shirt">
+          </optgroup>
+        </select>
+
+        <label for="shirt-primary-filter-select" class="required">Please select primary gear abilities.</label>
+        <select id="shirt-primary-filter-select" required>
+          <optgroup label="primary-one" id="shirt-primary-one">
+          </optgroup>
+        </select>
+
+        <br>
+
+        <h2>Shoes</h2>
+        <label for="shoes-select" class="required">Please select the shoes you want.</label>
+        <select id="shoes-select" required>
+          <optgroup label="Shoes" id="Shoes">
+          </optgroup>
+        </select>
+
+        <label for="shoes-primary-filter-select" class="required">Please select primary gear abilities.</label>
+        <select id="shoes-primary-filter-select" required>
+          <optgroup label="primary-one" id="shoes-primary-one">
+          </optgroup>
+        </select>
+
+        <br>
+
+        <h2>Mode</h2>
+        <label for="filter-select-modes" label class="required">Please select which modes this kit is for.</label>
+        <select id="filter-select-modes" multiple required>
+          <option value="rain">Rainmaker</option>
+          <option value="zones">Splat Zones</option>
+          <option value="tower">Tower Control</option>
+          <option value="clam">Clam Blitz</option>
+        </select>
+
+        <label for="kit-name" class="required">Write a name for your kit.</label>
+        <input type="text" id="name-input" required placeholder="Name...">
+
+        <a href="#" class="log-button" id="submit-button">Submit</a>
+    </div>
+
+    <div class="container-submit">
+      <div class="col-sm-4">
+        <div class="panel panel-info" style="margin-top: 20px;">
+          <div class="panel-heading">
+            <b id="kit-title">Kit title here</b><br>
+            <b id="author">Author</b>, <i id="date">Date</i>
+          </div>
+             <div class="panel-heading" id="weapon-panel-heading">
+              <span id="weapon-name">Weapon Name</span>
+              <div id="weapon-image-container">
+                <img id="weapon-image" src="https://i.imgur.com/MEIVO78.png" alt="weapon image" class="img-circle">
+                <img id="sub-image" src="https://i.imgur.com/MEIVO78.png" alt="sub image" class="img-circle" style="float: right;">
+                <img id="special-image" src="https://i.imgur.com/MEIVO78.png" alt="special image" class="img-circle" style="float: right;">
+              </div>
+      
+            </div>
+          
+   <div class="panel-body">
+                <!-- Add image elements for headgear -->
+                <img id="headgear-image" src="https://i.imgur.com/MEIVO78.png" alt="headgear" class="img-circle-fit">
+                <img id="headgear-primary-image" src="https://i.imgur.com/MEIVO78.png" alt="primary headgear" class="img-circle">
+                <img id="headgear-secondary-image" src="https://i.imgur.com/MEIVO78.png" alt="secondary headgear" class="img-circle">
+                <img id="headgear-third-image" src="https://i.imgur.com/MEIVO78.png" alt="third headgear" class="img-circle">
+                <img id="headgear-fourth-image" src="https://i.imgur.com/MEIVO78.png" alt="fourth headgear" class="img-circle">
+                <br>
+
+                <!-- Add image elements for shirt -->
+                <img id="shirt-image" src="https://i.imgur.com/MEIVO78.png" alt="shirt" class="img-circle-fit">
+                <img id="shirt-primary-image" src="https://i.imgur.com/MEIVO78.png" alt="primary shirt gear" class="img-circle">
+                <img id="shirt-secondary-image" src="https://i.imgur.com/MEIVO78.png" alt="secondary shirt gear" class="img-circle">
+                <img id="shirt-third-image" src="https://i.imgur.com/MEIVO78.png" alt="third shirt gear" class="img-circle">
+                <img id="shirt-fourth-image" src="https://i.imgur.com/MEIVO78.png" alt="fourth shirt gear" class="img-circle">
+                <br>
+
+                <!-- Add image elements for shoes -->
+                <img id="shoes-image" src="https://i.imgur.com/MEIVO78.png" alt="shoes" class="img-circle-fit">
+                <img id="shoes-primary-image" src="https://i.imgur.com/MEIVO78.png" alt="primary shoes gear" class="img-circle">
+                <img id="shoes-secondary-image" src="https://i.imgur.com/MEIVO78.png" alt="secondary shoes gear" class="img-circle">
+                <img id="shoes-third-image" src="https://i.imgur.com/MEIVO78.png" alt="third shoes gear" class="img-circle">
+                <img id="shoes-fourth-image" src="https://i.imgur.com/MEIVO78.png" alt="fourth shoes gear" class="img-circle">
+            </div>
+        </a> 
+        <div class="panel-footer">Made for: <span id="selectedModes"></span></div>
+      </div>
+      </div>
+      </div>
+</body>
