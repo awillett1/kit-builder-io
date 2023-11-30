@@ -4,4 +4,6 @@ kit-builder.io is a site dedicated to helping Splatoon 3 fans create and post th
 
 Users can create an account, submit their own kit-lists, and view others' kit creations.
 
+Current Season: Drizzle Season 2023
+
 Icon Credit : Hero Mode Icon Maker by @gouboot on Instagram
