@@ -1,0 +1,25 @@
+value,text,primary-image
+opGam,Opening Gambit,https://leanny.github.io/splat3/images/skill/StartAllUp.webp
+last,Last Ditch Effort,https://leanny.github.io/splat3/images/skill/EndAllUp.webp
+tena,Tenacity,https://cdn.wikimg.net/en/splatoonwiki/images/6/60/S3_Ability_Tenacity.png?20220825111019
+come,Comeback,https://leanny.github.io/splat3/images/skill/ComeBack.webp
+ninja,Ninja Squid,https://leanny.github.io/splat3/images/skill/SquidMoveSpatter_Reduction.webp
+haunt,Haunt,https://cdn.wikimg.net/en/splatoonwiki/images/2/2b/S3_Ability_Haunt.png?20220825110205
+thermal,Thermal Ink,https://cdn.wikimg.net/en/splatoonwiki/images/3/33/S3_Ability_Thermal_Ink.png?20220825112143
+respawn,Respawn Punisher,https://leanny.github.io/splat3/images/skill/Exorcist.webp
+stealth,Stealth Jump,https://cdn.wikimg.net/en/splatoonwiki/images/5/5a/S3_Ability_Stealth_Jump.png?20220825112118
+object,Object Shredder,https://leanny.github.io/splat3/images/skill/ObjectEffect_Up.webp
+drop,Drop Roller,https://leanny.github.io/splat3/images/skill/SomersaultLanding.webp
+inkM,Ink Main Up,https://leanny.github.io/splat3/images/skill/MainInk_Save.webp
+inkS,Ink Sub Up,https://leanny.github.io/splat3/images/skill/SubInk_Save.webp
+inkR,Ink Recovery Up,https://leanny.github.io/splat3/images/skill/InkRecovery_Up.webp
+run,Run Speed Up,https://leanny.github.io/splat3/images/skill/HumanMove_Up.webp
+swim,Swim Speed Up,https://leanny.github.io/splat3/images/skill/SquidMove_Up.webp
+specialUp,Special Charge Up,https://leanny.github.io/splat3/images/skill/SpecialIncrease_Up.webp
+specialS,Special Saver Up,https://leanny.github.io/splat3/images/skill/RespawnSpecialGauge_Save.webp
+specialP,Special Power Up,https://leanny.github.io/splat3/images/skill/SpecialSpec_Up.webp
+quickR,Quick Respawn,https://leanny.github.io/splat3/images/skill/RespawnTime_Save.webp
+quickJ,Quick Super Jump,https://leanny.github.io/splat3/images/skill/JumpTime_Save.webp
+subUp,Sub Power Up,https://leanny.github.io/splat3/images/skill/SubSpec_Up.webp
+inkRes,Ink Resistance Up,https://leanny.github.io/splat3/images/skill/OpInkEffect_Reduction.webp
+subRes,Sub Resistance Up,https://leanny.github.io/splat3/images/skill/SubEffect_Reduction.webp
